@@ -13,9 +13,9 @@ export const SharedLayout = () => {
                     GoMerch store
                 </Logo>
                 <nav>
-                    <Link>Home</Link>
-                    <Link>About</Link>
-                    <Link>Product</Link>
+                    <Link to='/' end>Home</Link>
+                    <Link to='/about'>About</Link>
+                    <Link to='/products'>Product</Link>
                 </nav>
             </Header>
             <Outlet/>
