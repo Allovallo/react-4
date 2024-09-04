@@ -7,7 +7,7 @@ export const SearchBox = ({ value, onChange }) => {
             <Input
                 type='text'
                 value={value}
-                onChange={e => onChange(e.target.ariaValueNow)}
+                onChange={(e) => onChange(e.target.value)}
             />
         </Wrapper>
     );
